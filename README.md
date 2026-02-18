@@ -28,12 +28,14 @@ A command-line tool that processes YouTube videos in 25+ languages to generate p
 2. Navigate to the project directory:
 
 ```bash
-cd youtube-transcript-summarizer/youtube-transcript-summarizer
+cd youtube-transcript-summarizer/
 ```
 
 3. Install dependencies:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
