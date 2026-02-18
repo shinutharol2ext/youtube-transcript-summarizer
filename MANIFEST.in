@@ -1,0 +1,20 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+recursive-include src *.py
+recursive-include tests *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store
+exclude .coverage
+exclude .env.example
+prune htmlcov
+prune .hypothesis
+prune .pytest_cache
+prune .venv
+prune .vscode
+prune .kiro
+prune mcp-related
+prune Agent-reading
+prune examples

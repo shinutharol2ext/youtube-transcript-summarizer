@@ -1,0 +1,2 @@
+[console_scripts]
+youtube-summarizer = src.cli:main
